@@ -124,6 +124,54 @@ comp <- MoE_compare(m1, m2)
 plot(mod, what="classification")
 plot(mod, what="uncertainty")
 
+#Multi-factor Variance Analysis
+
+d <- aggregate(mpg ~ displacement, data = Autompg, FUN = mean)
+print(abs(d[[2]][1]-d[[2]][2]))
+
+fit0 <- lm(mpg ~ displacement, data = Autompg)
+
+lm(formula = mpg ~ displacement, data = Autompg)
+
+fit0 <- lm(mpg ~ displacement, data = Autompg)
+fit1 <- lm(mpg ~ ., data = Autompg)
+fit2 <- lm(mpg ~ Acceleration + weight, Autompg)
+View(Autompg)
+fit3 <- lm(mpg ~ displacement + horsepower + Acceleration + weight, Autompg)
+fit0
+
+anova(fit0, fit1, fit2, fit3)
+
+#Graphical exploration of dataset
+plot(Autompg$weight , Autompg$mpg, xlab = 'Weight of Cars', ylab = 'Miles per Gallon', main = 'Scatter Plot for MTCars Weight Vs MPG')
+
+library(ggplot2)
+ggplot(data=Autompg,aes(x=weight, y=mpg)) + geom_point() + theme_minimal()
+
+library(gplots)
+
+
+
+plotmeans(model.year ~ origin, data = Autompg, frame = FALSE)
+
+rate_of_activity = Autompg$displacement
+
+sd(rate_of_activity)
+ggplot(Autompg, aes(x=mpg, y=displacement)) + 
++     geom_bar(stat="identity", color="black", position=position_dodge())
+
+p <- ggplot(Autompg, aes(x = weight, y = displacement))
+p + geom_point() + stat_density2d()
+p + stat_density2d(aes(colour = ..level..))
+p + stat_density2d(aes(fill = ..density..), geom = "raster", contour = FALSE)
+
+
+
+
+
+
+
+
 
 
 
