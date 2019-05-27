@@ -88,6 +88,18 @@ json_data <-
 df <- fromJSON(json_data)
 df
 
+#Using rvest package for web scraping
+install.packages('rvest')
+library(rvest)
+url <- 'https://www.imdb.com/search/title?count=100&release_date=2017,2017&title_type=feature'
+#Reading html code from mentioned url
+webpage <- read_html(url)
+webpage
+rank_data_html <- html_nodes(webpage,'.text-primary')
+rank_data_html
+
+
+
 
 library(httr)
 
