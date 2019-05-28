@@ -16,6 +16,8 @@ install.packages("dplyr")
 library(dplyr)
 mpgMutate <- mpg %>% mutate(nv=cyl+displ)   
 View(mpgMutate)
+mpgSummarize<- mpg %>% group_by(displ) %>% summarize(avg_displ=mean(displ))
+View(mpgSummarize)
 mpgGroupBy <- mpg %>%group_by(model)   
 View(mpgGroupBy)
 
