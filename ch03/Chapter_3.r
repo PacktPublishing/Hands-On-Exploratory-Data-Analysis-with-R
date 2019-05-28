@@ -25,6 +25,8 @@ View(mpgGroupBy)
 mpgArrange<- mpg %>%arrange(mpg$year)   
 View(mpgArrange)
 glimpse(mpg)
+mpgSubset <- select(mpg,   manufacturer, model)   
+View(mpgSubset) 
 mpgFilter <- mpg %>%   filter(year>2000)   
 View(mpgFilter) 
 library(lubridate) # work with dates
