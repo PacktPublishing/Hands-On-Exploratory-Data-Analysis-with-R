@@ -1,22 +1,22 @@
-# Book Name
+# Hands-On Exploratory Data Analysis with R
 
 <a href="https://www2.packtpub.com/big-data-and-business-intelligence/hands-exploratory-data-analysis-r?utm_source=github&utm_medium=repository&utm_campaign=9781789804379"><img src="https://packt-type-cloud.s3.amazonaws.com/uploads/sites/3096/2019/05/cover.png" alt="Book Name" height="256px" align="right"></a>
 
-This is the code repository for [Book Name](Packt UTM URL of the Book), published by Packt.
+This is the code repository for [Hands-On Exploratory Data Analysis with R](https://www2.packtpub.com/big-data-and-business-intelligence/hands-exploratory-data-analysis-r?utm_source=github&utm_medium=repository&utm_campaign=9781789804379), published by Packt.
 
-**Subtitle from EPIC**
+**Become an expert in exploratory data analysis using R packages**
 
 ## What is this book about?
-First Paragraph from the Long Description
+Hands-On Exploratory Data Analysis with R will help you build not just a foundation but also expertise in the elementary ways to analyze data. You will learn how to understand your data and summarize its main characteristics. You'll also uncover the structure of your data, and you'll learn graphical and numerical techniques using the R language.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
-* Learn how to manage users, groups, and permissions
-* Encrypt and decrypt disks with Linux Unified Key Setup /Luks
-* Setup SSH for remote access, and connect it to other nodes
-* Understand how to add, remove, and search for packages
-* Use NFS and Samba to share directories with other users
+This book covers the following exciting features:
+* Learn powerful R techniques to speed up your data analysis projects
+* Import, clean, and explore data using powerful R packages
+* Practice graphical exploratory analysis techniques
+* Create informative data analysis reports using ggplot2
+* Identify and clean missing and erroneous data
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/10DigitISBN) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/178980437X) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
