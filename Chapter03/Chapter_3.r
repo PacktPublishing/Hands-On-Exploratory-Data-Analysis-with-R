@@ -20,6 +20,7 @@ View(mpgMutate)
 mpgGroupBy <- mpg %>%group_by(model)   
 View(mpgGroupBy)
 mpgSummarize<- mpg %>% group_by(displ) %>% summarize(avg_displ=mean(displ))
+mpgSummarize
 View(mpgSummarize)
 mpgArrange<- mpg %>%arrange(mpg$year)   
 View(mpgArrange)
