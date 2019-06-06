@@ -40,7 +40,7 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 2-10        | R version 3.3.0 / Rstudio Desktop 0.99.903                    | Windows, Mac OS X, and Linux (Any) |
+| 2-10        | R version 3.3.0 / RStudio Desktop 0.99.903                    | Windows, Mac OS X, and Linux (Any) |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789804379_ColorImages.pdf).
 
@@ -49,7 +49,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Machine Learning with R - Third Edition [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-r-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788295864) [[Amazon]](https://www.amazon.com/dp/1788295862)
 
-## Get to Know the Author(s)
+## Get to Know the Authors
 **Radhika Datar**
 has more than 5 years' experience in software development and content writing. She is well versed in frameworks such as Python, PHP, and Java, and regularly provides training on them. She has been working with Educba and Eduonix as a training consultant since June 2016, while also working as a freelance academic writer in data science and data analytics. She obtained her master's degree from the Symbiosis Institute of Computer Studies and Research and her bachelor's degree from K. J. Somaiya College of Science and Commerce.
 
