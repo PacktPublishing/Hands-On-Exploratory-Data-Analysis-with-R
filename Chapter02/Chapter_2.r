@@ -62,6 +62,10 @@ json_data <-
 ]'
 df <- fromJSON(json_data)
 df
+library(httr)
+r <- GET("http://httpbin.org/get")
+r
+content(r, "raw")
 
 #Using rvest package for web scraping
 install.packages('rvest')
@@ -72,22 +76,11 @@ webpage <- read_html(url)
 webpage
 rank_data_html <- html_nodes(webpage,'.text-primary')
 rank_data_html
+rank_data <- html_text(rank_data_html)> head(rank_data)[1] "1." "2." "3." "4." "5." "6."
 
-
-
-
-library(httr)
-
-r <- GET("http://httpbin.org/get")
-
-r
-
-content(r, "raw")
 
 library(DBI)
 
 con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
 
 dbListTables(con)
-
-
