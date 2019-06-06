@@ -29,7 +29,7 @@ library(ggplot2)
 
 #Density Plots
 ggplot(iris) +
-+ geom_density(aes(x = Petal.Width, fill = Species), alpha=0.25)
+geom_density(aes(x = Petal.Width, fill = Species), alpha=0.25)
 
 #Probability Plots
 p1 <- ggplot(data = Iris, aes(PetalWidthCm)) +
