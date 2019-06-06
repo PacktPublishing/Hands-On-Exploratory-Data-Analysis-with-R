@@ -27,14 +27,12 @@ All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
 ```
-if (test expression)
-{
-  Statement upon condition is true
-}
+> mpg <-read.csv("highway_mpg.csv", stringsAsFactors = FALSE)
+> View(mpg
 ```
 
 **Following is what you need for this book:**
-Copy and paste the Audience section from the EPIC.
+Hands-On Exploratory Data Analysis with R is for data enthusiasts who want to build a strong foundation for data analysis. If you are a data analyst, data engineer, software engineer, or product manager, this book will sharpen your skills in the complete workflow of exploratory data analysis.	
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
 
