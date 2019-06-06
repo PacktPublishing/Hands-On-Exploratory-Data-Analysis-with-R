@@ -6,7 +6,7 @@ library(readr)
 options(repr.plot.width = 6, repr.plot.height = 6)
 Iris <- read.csv('Iris.csv')
 class(Iris)
-[1] "data.frame"
+#[1] "data.frame"
 View(Iris)
 head(Iris)
 
@@ -15,7 +15,7 @@ summary(Iris)
 
 ggplot(data=Iris,aes(x=SepalWidthCm, y=SepalLengthCm)) + geom_point() + theme_minimal()
 ggplot(data=Iris,aes(x=SepalWidthCm, y=SepalLengthCm,color=Species)) + geom_point() + theme_minimal()
-Creating histograms
+#Creating histograms
 hist(iris$Sepal.Width, freq=NULL, density=NULL, breaks=12,
 xlab="Sepal Width", ylab="Frequency", main="Histogram of Sepal Width")
 
