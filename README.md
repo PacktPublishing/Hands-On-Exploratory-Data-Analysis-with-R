@@ -42,41 +42,24 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1        | R version 3.3.0                     | Windows, Mac OS X, and Linux (Any) |
-| 2        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 3        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 4        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 5        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 6        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 7        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 8        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 9        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 10        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 11        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 12        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 13        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 14        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 15        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
+| 2-10        | R version 3.3.0 / Rstudio Desktop 0.99.903                    | Windows, Mac OS X, and Linux (Any) |
 
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789804379_ColorImages.pdf).
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](Graphics Bundle Link).
+### Related products
+* R Deep Learning Projects [[Packt]](https://www.packtpub.com/in/big-data-and-business-intelligence/r-deep-learning-projects?utm_source=github&utm_medium=repository&utm_campaign=9781788478403) [[Amazon]](https://www.amazon.com/dp/1788478401)
 
-### Related products <Paste books from the Other books you may enjoy section>
-* Linux: Powerful Server Administration [[Packt]](https://www.packtpub.com/networking-and-servers/linux-powerful-server-administration?utm_source=github&utm_medium=repository&utm_campaign=9781788293778) [[Amazon]](https://www.amazon.com/dp/1788293770)
-
-* Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Machine Learning with R - Third Edition [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-r-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788295864) [[Amazon]](https://www.amazon.com/dp/1788295862)
 
 ## Get to Know the Author(s)
-**Author Name**
-Bio
+**Radhika Datar**
+has more than 5 years' experience in software development and content writing. She is well versed in frameworks such as Python, PHP, and Java, and regularly provides training on them. She has been working with Educba and Eduonix as a training consultant since June 2016, while also working as a freelance academic writer in data science and data analytics. She obtained her master's degree from the Symbiosis Institute of Computer Studies and Research and her bachelor's degree from K. J. Somaiya College of Science and Commerce.
 
-**Author Name**
-Bio
-
+**Harish Garg**
+is a Principal Software Developer, author, and co-founder of a software development and training company, Bignumworks. Harish has more than 19 years of experience in a wide variety of technologies, including blockchain, data science and enterprise software. During this time, he has worked for companies such as McAfee, Intel, etc.
 
 ## Other books by the authors
-* [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-* [Linux Mint Essentials](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
+* [Mastering Exploratory Analysis with pandas](https://www2.packtpub.com/big-data-and-business-intelligence/mastering-exploratory-analysis-pandas?utm_source=github&utm_medium=repository&utm_campaign=9781789619638)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
