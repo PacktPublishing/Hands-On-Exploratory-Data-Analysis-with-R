@@ -16,7 +16,7 @@ ggplot(data=Iris,aes(x=SepalWidthCm, y=SepalLengthCm)) + geom_point() + theme_mi
 ggplot(data=Iris,aes(x=SepalWidthCm, y=SepalLengthCm,color=Species)) + geom_point() + theme_minimal()
 Creating histograms
 hist(iris$Sepal.Width, freq=NULL, density=NULL, breaks=12,
-+ xlab="Sepal Width", ylab="Frequency", main="Histogram of Sepal Width")
+xlab="Sepal Width", ylab="Frequency", main="Histogram of Sepal Width")
 
 library(ggplot2)
 
